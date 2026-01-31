@@ -76,9 +76,11 @@ def extract_needed_fields(result):
         'registration_id': result.get('registrationId', ''),
         'status': result.get('status', ''),
         'filing_date': result.get('filingDate', ''),
-        'agent_name': agent.get('name', ''),
-        'agent_address': agent.get('address', ''),
-        'agent_email': agent.get('email', '')
+        'agent_details': {
+            'agent_name': agent.get('name', ''),
+            'agent_address': agent.get('address', ''),
+            'agent_email': agent.get('email', '')
+        }
     }
 
 def append_results_to_file(filename, results):
