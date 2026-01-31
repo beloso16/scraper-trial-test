@@ -127,18 +127,22 @@ Each business entity contains:
     "registration_id": "123456",
     "status": "Active",
     "filing_date": "2023-05-14",
-    "agent_name": "Sara Davis",
-    "agent_address": "699 Broadway Ave",
-    "agent_email": "sara.davis.e71f523a99c3@example.com"
+    "agent_details": {
+      "agent_name": "Sara Davis",
+      "agent_address": "699 Broadway Ave",
+      "agent_email": "sara.davis.e71f523a99c3@example.com"
+    }
   },
   {
     "business_name": "XYZ CORP",
     "registration_id": "789012",
     "status": "Active",
     "filing_date": "2024-01-15",
-    "agent_name": "John Smith",
-    "agent_address": "123 Main St",
-    "agent_email": "john.smith.abc123@example.com"
+    "agent_details": {
+      "agent_name": "John Smith",
+      "agent_address": "123 Main St",
+      "agent_email": "john.smith.abc123@example.com"
+    }
   }
 ]
 ```
