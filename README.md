@@ -217,7 +217,7 @@ After running the scraper, your directory will look like:
 
 ```
 project/
-├── scraper_improved.py
+├── vercel_scraper.py
 ├── README.md
 ├── .gitignore
 └── search_results/
